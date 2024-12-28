@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1ebde;
+    height: 135px;
+}
+
+
+header>nav{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header>img{
+    width: 8%;
+}
+
+header>nav>a{
+    font-size: 30px;
+    color: #295287;
+    text-decoration: none;
+}
